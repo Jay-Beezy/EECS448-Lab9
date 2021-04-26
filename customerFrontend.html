@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Jake's Web Store!</title>
+  </head>
+  <body>
+    <form name="submissionForm" action="customerBackend.php" onsubmit="return processSubmission()" method="post">
+      <label for="userName">Please enter your username: </label><br/>
+      <input type="text" name="userName"></input><br/>
+      <label for="userPassword">Please enter your password: </label><br/>
+      <input type="password" name="userPassword"></input><br/>
+
+      <br/>
+
+      <div id="storeItems">
+        <label for="lotr">The Lord of the Rings ($25)</label>
+        <input type="number" id="lotr" name="lotr" value="0"></input><br/><br/>
+        <label for="theshining">The Shining ($10)</label>
+        <input type="number" id="theshining" name="theshining" value="0"></input><br/><br/>
+        <label for="intothewild">Into the Wild ($5)</label>
+        <input type="number" id="intothewild" name="intothewild" value="0"></input><br/>
+
+
+      </div>
+
+      <br/>
+
+      <div id="shippingOptions">
+        <label>Select your method of shipping</label><br/>
+        <input type="radio" name="shippingOption" id="shipping1" value="0">Seven Day Shipping</input><br/>
+        <input type="radio" name="shippingOption" id="shipping2" value="50">Over night Shipping</input><br/>
+        <input type="radio" name="shippingOption" id="shipping3" value="5">Three day Shipping</input><br/>
+
+
+      </div>
+
+      <br/>
+
+      <button type="reset" id="button1">Reset</button><br/>
+      <br/>
+      <button type="submit" id="button1">Submit</button><br/>
+
+    </form>
+    <script src="formChecker.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+  </body>
+</html>

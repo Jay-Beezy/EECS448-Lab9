@@ -1,0 +1,18 @@
+body
+{
+    background-color: rgb(255, 209, 209);
+}
+
+label{
+    color: red;
+}
+
+#button1{
+     height: 5%;
+    width: 20%;
+    font-family: georgia;
+    font-size: 22pt;
+    color: rgb(255, 255, 255);
+    background-color:rgb(136, 0, 0);
+}
+
